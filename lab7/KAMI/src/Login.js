@@ -13,7 +13,6 @@ function Login({ setTrigger}) {
     const [password, setPassword] = useState('123');
     const [hidePass, setHidePass] = useState(true);
 
-    authentication();
     //handle login authentication
     function authentication() {
         const axios = require('axios').default;
